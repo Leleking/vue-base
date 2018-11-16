@@ -13,16 +13,19 @@
               <div class="col-lg-3">
                 <h3>
                   <img class="mr-10" width="100px" height="100px" src="/static/assets/images/logo.jpg"
-                    alt="...">A1 bread</h3>
+                    alt="..."></h3>
                 <address>
-                  795 Folsom Ave, Suite 600
-                  <br> San Francisco, CA, 94107
+                  Supreme State Ltd
+                  No B843/12 - Winneba Road
+                  <br> Accra
                   <br>
                   <abbr title="Mail">E-mail:</abbr>&nbsp;&nbsp;example@google.com
                   <br>
-                  <abbr title="Phone">Phone:</abbr>&nbsp;&nbsp;(123) 456-7890
+                  <abbr title="Phone">Phone:</abbr>&nbsp;&nbsp;+233(0)24-1-555-000 
                   <br>
-                  <abbr title="Fax">Fax:</abbr>&nbsp;&nbsp;800-692-7753
+                  <abbr title="Fax">Mobile:</abbr>&nbsp;&nbsp;+233(0)54-0-125-033
+                  <br>
+                  <abbr title="Fax">Web:</abbr>&nbsp;&nbsp;www.supremestate.org
                 </address>
               </div>
               <div class="col-lg-3 offset-lg-6 text-right">

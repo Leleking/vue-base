@@ -3,7 +3,6 @@
     <pageLoad v-show='this.routeStore.loading'></pageLoad>
     <div v-show='!this.routeStore.loading'>
     <navbar v-show="navR"></navbar>
-    <carousel v-show="welcome"></carousel>
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
@@ -14,7 +13,7 @@
       <div class="col-md-1"></div>
     </div>
      <!-- Footer -->
-  <vueFooter v-show="navR" class="vuefooter"></vueFooter>
+    <!--<vueFooter v-show="navR,notFound" class="vuefooter"></vueFooter>-->
     </div>
     <!-- Core  -->
   </div>
@@ -23,21 +22,18 @@
 <script>
 import pageLoad from './components/partials/loading/pageLoad'
 import navbar from './components/partials/navbar'
-import carousel from './components/partials/carousel'
-import vueFooter from './components/partials/vueFooter'
 import {mapState} from 'vuex'
 export default {
   name: 'App',
   components:{
     pageLoad,
-    navbar,
-    carousel,
-		vueFooter
+    navbar
   },
   data(){
     return {
       nav:true,
-      carouselMap:false
+      carouselMap:false,
+      foot:true
     }
   },
   computed:{
@@ -49,6 +45,13 @@ export default {
       return this.nav = false
     }else{
       return this.nav = true
+    }
+    },
+    notFound(){
+       if(this.$route.name == "NotFound" || this.$route.name=="signup"){
+      return this.foot = false
+    }else{
+      return this.foot = true
     }
     },
     welcome(){

@@ -47,7 +47,9 @@
                                         <div class="input-wrapper">
                                           <label class="sr-only" for="email">Email</label>
                                           <input id="subscribeEmail" type="email" name="subscribeEmail" class="validate form-control" placeholder="Your Email Please!">
-                                          <button type="submit"><i class="fa fa-arrow-circle-right"></i></button>
+                                          <button type="submit" class="btn btn-primary">
+						                        <i class="site-menu-icon wb-arrow-right" aria-hidden="true"></i>
+										  </button>
                                         </div>
                                     </div>
                                     <!-- to showing success messages -->

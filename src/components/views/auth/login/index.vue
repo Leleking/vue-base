@@ -3,8 +3,8 @@
           <div class="page vertical-align text-center" data-animsition-in="fade-in" data-animsition-out="fade-out">>
       <div class="page-content vertical-align-middle animation-slide-top animation-duration-1">
         <div class="brand">
-          <img class="brand-img" width="150px" height="140px" src="/static/assets/images/logo.jpg" alt="...">
-          <h2 class="brand-text">A1bread</h2>
+          <!--<img class="brand-img" width="150px" height="140px" src="/static/assets/images/logo.jpg" alt="...">-->
+          <h2 class="brand-text">Vue-base</h2>
         </div>
         <p>Sign into your A1bread account</p>
         <form method="post" action="login.html">
@@ -30,21 +30,7 @@
         </form>
         <p>Still no account? Please go to <router-link to="/signup">signup</router-link></p>
 
-        <footer class="page-copyright page-copyright-inverse">
-          <p>WEBSITE BY Geo</p>
-          <p>© 2018. All RIGHT RESERVED.</p>
-          <div class="social">
-            <a class="btn btn-icon btn-pure" href="javascript:void(0)">
-          <i class="icon bd-twitter" aria-hidden="true"></i>
-        </a>
-            <a class="btn btn-icon btn-pure" href="javascript:void(0)">
-          <i class="icon bd-facebook" aria-hidden="true"></i>
-        </a>
-            <a class="btn btn-icon btn-pure" href="javascript:void(0)">
-          <i class="icon bd-dribbble" aria-hidden="true"></i>
-        </a>
-          </div>
-        </footer>
+       
       </div>
     </div>
     <!-- End Page -->

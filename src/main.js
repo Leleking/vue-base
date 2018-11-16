@@ -11,7 +11,13 @@ import VueIziToast from 'vue-izitoast';
 import 'izitoast/dist/css/iziToast.css'
 import vbclass from 'vue-body-class'
 Vue.use( vbclass, router )
-
+import * as VueGoogleMaps from 'vue2-google-maps'
+ 
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: 'YOUR_API_TOKEN'
+  }
+})
 Vue.use(VueIziToast)
 Vue.use(VeeValidate)
 Vue.use(VueResource)
