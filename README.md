@@ -1,6 +1,7 @@
-# a1bread
+# Vue-base
 
-> ecommerce for a1 bread
+> Ready to go with vue
+>Everything is setup for you. Even your loading component for every http request is already setup. Vue-base is still in production
 
 ## Build Setup
 
